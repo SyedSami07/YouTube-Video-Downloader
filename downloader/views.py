@@ -4,8 +4,8 @@ from django.shortcuts import render
 
 from django.shortcuts import render
 
-def home(request):
-    return render(request, 'home.html')  # Ensure you have a 'home.html' template in your templates folder
+def index(request):
+    return render(request, 'index.html')  # Ensure you have a 'home.html' template in your templates folder
 
 
 def download_video(request):
